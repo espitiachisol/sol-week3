@@ -45,6 +45,7 @@ header {
   justify-content: center;
 }
 .welcome h1 {
+  font-weight: 500;
   font-size: 4rem;
 }
 .pics-section {
