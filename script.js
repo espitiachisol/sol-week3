@@ -20,6 +20,7 @@ req.onload = function () {
       div_p_img_title.appendChild(div_p_img_title_span);
       pics_section.lastChild.classList.add("box");
       div_box = document.querySelectorAll(".box")[i + 8];
+
       div_box.firstChild.src = "imgs/loading.png";
       div_box.firstChild.classList.add("img");
       div_box.lastChild.classList.add("img-title");

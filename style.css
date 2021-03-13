@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  padding: 2rem;
+  padding: 1.6rem;
   display: flex;
   justify-content: space-between;
 }
@@ -49,7 +49,7 @@ header {
   font-size: 4rem;
 }
 .pics-section {
-  margin: 4rem auto 2rem auto;
+  margin: 4rem auto 0rem auto;
   min-height: 400px;
   max-width: 1200px;
   display: flex;
@@ -75,6 +75,26 @@ img {
 }
 .show img {
   display: none;
+}
+.load-more_btn {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(232, 255, 254);
+  display: inline-block;
+  padding: 2rem 4rem;
+  margin: 3rem 0;
+  transition: all 0.2s;
+}
+.load-more_btn a:link,
+.load-more_btn a:visited {
+  text-decoration: none;
+  color: black;
+}
+.load-more_btn:hover {
+  transform: translateY(-2px);
+}
+.load-more_btn:active {
+  transform: translateY(2px);
 }
 @media screen and (max-width: 1200px) {
   .pics-section {
